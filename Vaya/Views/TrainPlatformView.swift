@@ -12,6 +12,9 @@ struct TrainPlatformView: View {
     var body: some View {
         VStack {
             HStack {
+                // train.side.rear.car
+                // train.side.front.car
+                //trian.side.middle.car
                 Image(systemName: "train.side.rear.car")
                     .font(.system(size: 75))
                     .rotationEffect(.degrees(90))
