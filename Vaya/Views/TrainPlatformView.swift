@@ -11,84 +11,93 @@ struct TrainPlatformView: View {
     
     var body: some View {
         VStack {
-            HStack {
+            HStack(spacing: -10) {
                 // train.side.rear.car
                 // train.side.front.car
-                //trian.side.middle.car
+                // train.side.middle.car
                 Image(systemName: "train.side.rear.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                 Image(systemName: "1.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
             
-            HStack {
+            HStack(spacing: -10) {
                 Image(systemName: "train.side.middle.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                 Image(systemName: "2.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
 
-            HStack {
+            HStack(spacing: -10) {
                 Image(systemName: "train.side.middle.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                 Image(systemName: "3.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
             
-            HStack {
+            HStack(spacing: -10) {
                 Image(systemName: "train.side.middle.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                 Image(systemName: "4.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
 
-            HStack {
+            HStack(spacing: -10) {
                 Image(systemName: "train.side.middle.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                 Image(systemName: "5.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
 
-            HStack {
+            HStack(spacing: -10) {
                 Image(systemName: "train.side.middle.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                 Image(systemName: "6.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
 
-            HStack {
+            HStack(spacing: -10) {
                 Image(systemName: "train.side.middle.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                 Image(systemName: "7.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
 
-            HStack {
+            HStack(spacing: -10) {
                 Image(systemName: "train.side.rear.car")
-                    .font(.system(size: 75))
+                    .font(.system(size: 70))
                     .rotationEffect(.degrees(90))
                     .scaleEffect(CGSize(width: 1.0, height: -1.0))
                 Image(systemName: "8.lane")
-                    .font(.system(size: 90))
+                    .font(.system(size: 65))
             }
-            .offset(x: -90)
+            .offset(x: -110)
+            .padding(10)
 
             }
         }
+
     }
 
 
