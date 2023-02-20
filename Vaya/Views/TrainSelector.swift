@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TrainSelector: View {
+    @State var showingPopUp = false
+    
     var body: some View {
         VStack {
             AuthenticationHeaderView(title1: "Select Your Train From ", title2: "the Options Below.")

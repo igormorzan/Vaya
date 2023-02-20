@@ -52,7 +52,7 @@ struct RegistrationView: View {
                 }
             }
             .padding(.bottom, 32)
-            .foregroundColor(Color(#colorLiteral(red: 0.6, green: 0.4, blue: 0.2, alpha: 1))) // #996633)
+            .foregroundColor(Color(#colorLiteral(red: 0, green: 0.576, blue: 0.235, alpha: 1))) // #00933c
         }
         .ignoresSafeArea()
     }
