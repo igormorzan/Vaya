@@ -29,22 +29,22 @@ struct SplashScreenView: View {
                                 .font(.system(size: 30))
                                 .font(.headline)
                                 .fontWeight(.bold)
-                                .foregroundColor(.red)
+                                .foregroundColor(Color(#colorLiteral(red: 0.933, green: 0.208, blue: 0.18, alpha: 1))) // #ee352e
                             + Text("a")
                                 .font(.system(size: 30))
                                 .font(.headline)
                                 .fontWeight(.bold)
-                                .foregroundColor(.orange)
+                                .foregroundColor(Color(#colorLiteral(red: 1, green: 0.388, blue: 0.098, alpha: 1))) // #ff6319
                             + Text("y")
                                 .font(.system(size: 30))
                                 .font(.headline)
                                 .fontWeight(.bold)
-                                .foregroundColor(.yellow)
+                                .foregroundColor(Color(#colorLiteral(red: 0.988, green: 0.8, blue: 0.039, alpha: 1))) // #fccc0a
                             + Text("a")
                                 .font(.system(size: 30))
                                 .font(.headline)
                                 .fontWeight(.bold)
-                                .foregroundColor(.blue)
+                                .foregroundColor(Color(#colorLiteral(red: 0.655, green: 0.663, blue: 0.675, alpha: 1))) // #a7a9ac
                             
                         }
                         .scaleEffect(size)

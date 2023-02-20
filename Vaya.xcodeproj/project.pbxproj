@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		897D018129A3FA1E00EE7A03 /* TrainSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D018029A3FA1E00EE7A03 /* TrainSelector.swift */; };
 		89A6F50229998AA900E5052F /* VayaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6F50129998AA900E5052F /* VayaApp.swift */; };
 		89A6F50629998AB100E5052F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A6F50529998AB100E5052F /* Assets.xcassets */; };
 		89A6F50929998AB100E5052F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A6F50829998AB100E5052F /* Preview Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		897D018029A3FA1E00EE7A03 /* TrainSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSelector.swift; sourceTree = "<group>"; };
 		89A6F4FE29998AA900E5052F /* Vaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A6F50129998AA900E5052F /* VayaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VayaApp.swift; sourceTree = "<group>"; };
 		89A6F50529998AB100E5052F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				89A6F5152999A07C00E5052F /* RegistrationView.swift */,
 				89CF4461299C732700D2F95F /* SplashScreenView.swift */,
 				89CF446529A1E1B500D2F95F /* TrainPlatformView.swift */,
+				897D018029A3FA1E00EE7A03 /* TrainSelector.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89CF4462299C732700D2F95F /* SplashScreenView.swift in Sources */,
+				897D018129A3FA1E00EE7A03 /* TrainSelector.swift in Sources */,
 				89A6F5182999A2BD00E5052F /* CustomInputField.swift in Sources */,
 				89A6F51129998B5900E5052F /* LoginView.swift in Sources */,
 				89A6F50229998AA900E5052F /* VayaApp.swift in Sources */,

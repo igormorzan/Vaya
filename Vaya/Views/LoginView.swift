@@ -40,7 +40,7 @@ struct LoginView: View {
                     Text("Forgot Password?")
                         .font(.caption)
                         .fontWeight(.bold)
-                        .foregroundColor(.purple)
+                        .foregroundColor(Color(#colorLiteral(red: 0.725, green: 0.2, blue: 0.678, alpha: 1))) // #b933ad
                         
                         .padding(.trailing, 24)
                 }
@@ -73,7 +73,7 @@ struct LoginView: View {
                     .fontWeight(.semibold)
             }
             .padding(.bottom, 32)
-            .foregroundColor(Color(.blue))
+            .foregroundColor(Color(#colorLiteral(red: 0, green: 0.224, blue: 0.651, alpha: 1))) // #0039a6
         }
         .ignoresSafeArea()
         .navigationBarHidden(true)
