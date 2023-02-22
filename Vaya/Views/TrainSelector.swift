@@ -9,6 +9,7 @@ import SwiftUI
 import PopupView
 
 struct TrainSelector: View {
+    // manual creation.. revisit in future
     @State var showingPopupOne = false
     @State var showingPopupTwo = false
     @State var showingPopupThree = false
