@@ -16,6 +16,7 @@
 		89A6F5162999A07C00E5052F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6F5152999A07C00E5052F /* RegistrationView.swift */; };
 		89A6F5182999A2BD00E5052F /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6F5172999A2BD00E5052F /* CustomInputField.swift */; };
 		89A6F51B2999A50D00E5052F /* AuthenticationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6F51A2999A50D00E5052F /* AuthenticationHeaderView.swift */; };
+		89AAF5F229A68FDC004AC0D0 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 89AAF5F129A68FDC004AC0D0 /* PopupView */; };
 		89CF4457299B52D400D2F95F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89CF4456299B52D400D2F95F /* GoogleService-Info.plist */; };
 		89CF445A299B53EB00D2F95F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF4459299B53EB00D2F95F /* FirebaseAuth */; };
 		89CF445C299B53EB00D2F95F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF445B299B53EB00D2F95F /* FirebaseFirestore */; };
@@ -50,6 +51,7 @@
 			files = (
 				89CF445A299B53EB00D2F95F /* FirebaseAuth in Frameworks */,
 				89CF4460299B53EB00D2F95F /* FirebaseStorage in Frameworks */,
+				89AAF5F229A68FDC004AC0D0 /* PopupView in Frameworks */,
 				89CF445C299B53EB00D2F95F /* FirebaseFirestore in Frameworks */,
 				89CF445E299B53EB00D2F95F /* FirebaseFirestoreSwift in Frameworks */,
 			);
@@ -147,6 +149,7 @@
 				89CF445B299B53EB00D2F95F /* FirebaseFirestore */,
 				89CF445D299B53EB00D2F95F /* FirebaseFirestoreSwift */,
 				89CF445F299B53EB00D2F95F /* FirebaseStorage */,
+				89AAF5F129A68FDC004AC0D0 /* PopupView */,
 			);
 			productName = Vaya;
 			productReference = 89A6F4FE29998AA900E5052F /* Vaya.app */;
@@ -178,6 +181,7 @@
 			mainGroup = 89A6F4F529998AA900E5052F;
 			packageReferences = (
 				89CF4458299B53EB00D2F95F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				89AAF5F029A68FDC004AC0D0 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = 89A6F4FF29998AA900E5052F /* Products */;
 			projectDirPath = "";
@@ -422,6 +426,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		89AAF5F029A68FDC004AC0D0 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		89CF4458299B53EB00D2F95F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -433,6 +445,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		89AAF5F129A68FDC004AC0D0 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89AAF5F029A68FDC004AC0D0 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
 		89CF4459299B53EB00D2F95F /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 89CF4458299B53EB00D2F95F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
