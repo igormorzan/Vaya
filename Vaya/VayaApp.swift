@@ -21,8 +21,7 @@ struct VayaApp: App {
         WindowGroup {
             NavigationView {
                 ZStack {
-                    // SplashScreenView()
-                    TrainSelector()
+                    SplashScreenView()
                 }
             }
         }
