@@ -26,6 +26,8 @@
 		89CF4462299C732700D2F95F /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF4461299C732700D2F95F /* SplashScreenView.swift */; };
 		89CF4464299C93E900D2F95F /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF4463299C93E900D2F95F /* AuthenticationViewModel.swift */; };
 		89CF446629A1E1B500D2F95F /* TrainPlatformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF446529A1E1B500D2F95F /* TrainPlatformView.swift */; };
+		89E06C2E29A8108B00400A41 /* OneTrainDowntownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E06C2D29A8108B00400A41 /* OneTrainDowntownView.swift */; };
+		89E06C3329A8166100400A41 /* TwoTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E06C3229A8166100400A41 /* TwoTrainUptownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		89CF4461299C732700D2F95F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		89CF4463299C93E900D2F95F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		89CF446529A1E1B500D2F95F /* TrainPlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPlatformView.swift; sourceTree = "<group>"; };
+		89E06C2D29A8108B00400A41 /* OneTrainDowntownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTrainDowntownView.swift; sourceTree = "<group>"; };
+		89E06C3229A8166100400A41 /* TwoTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTrainUptownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 		89AAF5F329A7AD74004AC0D0 /* TrainStationViews */ = {
 			isa = PBXGroup;
 			children = (
+				89E06C3129A8150000400A41 /* TwoTrain */,
 				89AAF5F429A7AD9A004AC0D0 /* OneTrain */,
 			);
 			path = TrainStationViews;
@@ -143,8 +148,17 @@
 			isa = PBXGroup;
 			children = (
 				89AAF5F529A7ADB3004AC0D0 /* OneTrainUptownView.swift */,
+				89E06C2D29A8108B00400A41 /* OneTrainDowntownView.swift */,
 			);
 			path = OneTrain;
+			sourceTree = "<group>";
+		};
+		89E06C3129A8150000400A41 /* TwoTrain */ = {
+			isa = PBXGroup;
+			children = (
+				89E06C3229A8166100400A41 /* TwoTrainUptownView.swift */,
+			);
+			path = TwoTrain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +251,9 @@
 				89A6F50229998AA900E5052F /* VayaApp.swift in Sources */,
 				89CF4464299C93E900D2F95F /* AuthenticationViewModel.swift in Sources */,
 				89A6F51429998FD400E5052F /* RoundedShape.swift in Sources */,
+				89E06C2E29A8108B00400A41 /* OneTrainDowntownView.swift in Sources */,
 				89A6F5162999A07C00E5052F /* RegistrationView.swift in Sources */,
+				89E06C3329A8166100400A41 /* TwoTrainUptownView.swift in Sources */,
 				89A6F51B2999A50D00E5052F /* AuthenticationHeaderView.swift in Sources */,
 				89CF446629A1E1B500D2F95F /* TrainPlatformView.swift in Sources */,
 			);
