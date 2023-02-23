@@ -40,6 +40,7 @@ struct OneTrainUptownView: View {
                     .font(.system(size: 28))
                     .font(.headline)
                     .fontWeight(.bold)
+                    .padding(.bottom, 3)
                 
                 VStack {
                     Group { // group 1
@@ -453,9 +454,220 @@ struct OneTrainUptownView: View {
                             .buttonStyle(.bordered)
                             .clipShape(Capsule())
                         })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("116 St - Columbia University")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("125 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("137 St - City College")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("145 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("157 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("168 St")
+                                Image(uiImage: UIImage(named: "a")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                                Image(uiImage: UIImage(named: "c")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("181 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                    }
+                    
+                    Group { // group 4
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("191 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("Dyckman St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("207 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("215 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("Marble Hill - 225 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Text("BRONX")
+                            .font(.system(size: 28))
+                            .font(.headline)
+                            .fontWeight(.bold)
+                            .padding(.bottom, 3)
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("231 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("238 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("Van Cortlandt Park - 242 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
                     }
 
                 }
+                .padding(.bottom, 10)
                 .ignoresSafeArea()
 
             }
