@@ -47,9 +47,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack {
                             Text("South Ferry")
-                            Text("(Battery Park)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                             Image(uiImage: UIImage(named: "n")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
@@ -72,9 +69,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack{
                             Text("Rector St")
-                            Text("(Greenwich St)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -87,10 +81,7 @@ struct OneTrainUptownView: View {
                     Button(action: {
                     }, label: {
                         HStack{
-                            Text("Cortlandt St - World Trade Ctr")
-                            Text("(Vesey St)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
+                            Text("Cortlandt St - World Trade Center")
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -104,9 +95,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack{
                             Text("Chambers St")
-                            Text("(West Broadway)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                             Image(uiImage: UIImage(named: "2")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
@@ -126,9 +114,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack{
                             Text("Franklin St")
-                            Text("(Varick St)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -142,9 +127,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack{
                             Text("Canal St")
-                            Text("(Varick St)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -158,9 +140,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack{
                             Text("Houston St")
-                            Text("(Varick St)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -174,9 +153,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack{
                             Text("Christopher St - Sheridan Sq")
-                            Text("(7 Ave South)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -190,22 +166,19 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack {
                             Text("14 St")
-                            Text("(7 Ave)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
-                            Image(uiImage: UIImage(named: "f")!)
+                            Image(uiImage: UIImage(named: "2")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "3")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
                             Image(uiImage: UIImage(named: "l")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "f")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                             Image(uiImage: UIImage(named: "m")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "2")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "3")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
                         }
@@ -222,9 +195,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack{
                             Text("18 St")
-                            Text("(7 Ave)")
-                                .foregroundColor(.white)
-                                .fontWeight(.ultraLight)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -240,9 +210,6 @@ struct OneTrainUptownView: View {
                         }, label: {
                             HStack{
                                 Text("23 St")
-                                Text("(7 Ave)")
-                                    .foregroundColor(.white)
-                                    .fontWeight(.ultraLight)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -256,9 +223,6 @@ struct OneTrainUptownView: View {
                         }, label: {
                             HStack{
                                 Text("28 St")
-                                Text("(7 Ave)")
-                                    .foregroundColor(.white)
-                                    .fontWeight(.ultraLight)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -272,15 +236,215 @@ struct OneTrainUptownView: View {
                         }, label: {
                             HStack{
                                 Text("34 St - Penn Station")
-                                Text("(7 Ave)")
-                                    .foregroundColor(.white)
-                                    .fontWeight(.ultraLight)
                                 Image(uiImage: UIImage(named: "2")!)
                                     .resizable()
                                     .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "3")!)
                                     .resizable()
                                     .frame(width: 26.0, height: 26.0)
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("Times Sq - 42 St")
+                                VStack(spacing: 4) {
+                                    HStack {
+                                        Image(uiImage: UIImage(named: "a")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "c")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "e")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "s")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "7")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                    }
+                                    .padding(.top, 4)
+
+                                    HStack {
+                                        Image(uiImage: UIImage(named: "n")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "q")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "r")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "w")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "2")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "3")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                    }
+                                    .padding(.bottom, 4)
+
+                                }
+
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("50 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack {
+                                Text("59 St - Columbus Circle")
+                                Image(uiImage: UIImage(named: "a")!)
+                                    .resizable()
+                                    .frame(width: 21.0, height: 21.0)
+                                Image(uiImage: UIImage(named: "c")!)
+                                    .resizable()
+                                    .frame(width: 21.0, height: 21.0)
+                                Image(uiImage: UIImage(named: "b")!)
+                                    .resizable()
+                                    .frame(width: 21.0, height: 21.0)
+                                Image(uiImage: UIImage(named: "d")!)
+                                    .resizable()
+                                    .frame(width: 21.0, height: 21.0)
+                                Image(uiImage: UIImage(named: "2")!)
+                                    .resizable()
+                                    .frame(width: 21.0, height: 21.0)
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("68 St - Lincoln Center")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("72 St")
+                                Image(uiImage: UIImage(named: "2")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                                Image(uiImage: UIImage(named: "3")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("79 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("86 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                    }
+                    
+                    Group { // group 3
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("96 St")
+                                Image(uiImage: UIImage(named: "2")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                                Image(uiImage: UIImage(named: "3")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("103 St")
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(width: 360, height: 50)
+                            .background(Color(.black))
+                            .buttonStyle(.bordered)
+                            .clipShape(Capsule())
+                        })
+                        
+                        Button(action: {
+                        }, label: {
+                            HStack{
+                                Text("Cathedral Pkwy (110 St)")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
