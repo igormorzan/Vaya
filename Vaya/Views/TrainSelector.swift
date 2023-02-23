@@ -573,10 +573,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "1")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -631,10 +636,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "2")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -689,10 +699,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "3")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -747,10 +762,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "4")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -805,10 +825,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "5")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -863,10 +888,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "6")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -921,10 +951,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "7")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -979,10 +1014,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "a")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1037,10 +1077,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "c")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1095,10 +1140,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "e")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1153,10 +1203,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "b")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1211,10 +1266,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "d")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1269,10 +1329,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "f")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1327,10 +1392,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "m")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1385,10 +1455,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "j")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1443,10 +1518,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "z")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1501,10 +1581,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "l")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1559,10 +1644,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "n")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1617,10 +1707,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "q")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1675,10 +1770,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "r")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1733,10 +1833,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "w")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
@@ -1791,10 +1896,15 @@ struct TrainSelector: View {
             VStack {
                 Spacer()
                 
-                Text("Direction")
-                    .font(.system(size: 20))
-                    .font(.headline)
-                    .fontWeight(.bold)
+                HStack {
+                    Image(uiImage: UIImage(named: "g")!)
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                    Text("Direction")
+                        .font(.system(size: 20))
+                        .font(.headline)
+                        .fontWeight(.bold)
+                }
                 
                 Divider()
                     .frame(height: 0.36)
