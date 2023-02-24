@@ -34,10 +34,11 @@ struct OneTrainUptownView: View {
             
             ScrollView(showsIndicators: false) {
                 Text("MANHATTAN")
+                    .padding(.top, 5.7)
                     .font(.system(size: 28))
                     .font(.headline)
                     .fontWeight(.bold)
-                    .padding(.bottom, 3)
+                    .padding(.bottom, 5.7)
                 
                 VStack {
                     Group { // group 1
@@ -45,9 +46,6 @@ struct OneTrainUptownView: View {
                     }, label: {
                         HStack {
                             Text("South Ferry")
-                            Image(uiImage: UIImage(named: "n")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
                             Image(uiImage: UIImage(named: "r")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
@@ -325,19 +323,16 @@ struct OneTrainUptownView: View {
                                 Text("59 St - Columbus Circle")
                                 Image(uiImage: UIImage(named: "a")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "c")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "b")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "d")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
-                                Image(uiImage: UIImage(named: "2")!)
-                                    .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -350,7 +345,7 @@ struct OneTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("68 St - Lincoln Ctr")
+                                Text("66 St - Lincoln Ctr")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -442,7 +437,7 @@ struct OneTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Cathedral Parkway (110 St)")
+                                Text("Cathedral Pkwy - 110 St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)

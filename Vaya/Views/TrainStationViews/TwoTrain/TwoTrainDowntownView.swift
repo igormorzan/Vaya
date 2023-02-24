@@ -15,17 +15,18 @@ struct TwoTrainDowntownView: View {
                     Spacer()
                 }
                 HStack {
-                    Text("Select Your Downtown")
+                    Text("Select Your Uptown")
+                        .font(.largeTitle)
                         .fontWeight(.semibold)
-                        .font(.system(size: 30))
                     Image(uiImage: UIImage(named: "2")!)
                         .resizable()
                         .frame(width: 45.0, height: 45.0)
                 }
                 Text("Station Below.")
+                    .font(.largeTitle)
                     .fontWeight(.semibold)
-                    .font(.system(size: 30))
             }
+            // .padding(.top, 27)
             .frame(height: 210)
             .padding(.leading)
             .foregroundColor(.white)
@@ -34,10 +35,11 @@ struct TwoTrainDowntownView: View {
             
             ScrollView(showsIndicators: false) {
                 Text("BROOKLYN")
+                    .padding(.top, 5.7)
                     .font(.system(size: 28))
                     .font(.headline)
                     .fontWeight(.bold)
-                    .padding(.bottom, 3)
+                    .padding(.bottom, 5.7)
                 
                 VStack {
                     Group { // group 1
@@ -61,6 +63,9 @@ struct TwoTrainDowntownView: View {
                     }, label: {
                         HStack{
                             Text("Newkirk Av")
+                            Image(uiImage: UIImage(named: "5")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -74,6 +79,9 @@ struct TwoTrainDowntownView: View {
                     }, label: {
                         HStack{
                             Text("Beverly Rd")
+                            Image(uiImage: UIImage(named: "5")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -87,6 +95,9 @@ struct TwoTrainDowntownView: View {
                     }, label: {
                         HStack{
                             Text("Church Av")
+                            Image(uiImage: UIImage(named: "5")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -100,6 +111,9 @@ struct TwoTrainDowntownView: View {
                     }, label: {
                         HStack{
                             Text("Winthrop St")
+                            Image(uiImage: UIImage(named: "5")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -113,19 +127,9 @@ struct TwoTrainDowntownView: View {
                     }, label: {
                         HStack{
                             Text("Sterling St")
-                        }
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .frame(width: 360, height: 50)
-                        .background(Color(.black))
-                        .buttonStyle(.bordered)
-                        .clipShape(Capsule())
-                    })
-                    
-                    Button(action: {
-                    }, label: {
-                        HStack{
-                            Text("Houston St")
+                            Image(uiImage: UIImage(named: "5")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -139,6 +143,9 @@ struct TwoTrainDowntownView: View {
                     }, label: {
                         HStack{
                             Text("President St")
+                            Image(uiImage: UIImage(named: "5")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -152,9 +159,6 @@ struct TwoTrainDowntownView: View {
                     }, label: {
                         HStack {
                             Text("Franklin Av")
-                            Image(uiImage: UIImage(named: "s")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
                             Image(uiImage: UIImage(named: "3")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
@@ -177,7 +181,10 @@ struct TwoTrainDowntownView: View {
                     Button(action: {
                     }, label: {
                         HStack{
-                            Text("Eastern Parkway - Brooklyn Museum")
+                            Text("Eastern Pkwy - Bklyn Museum")
+                            Image(uiImage: UIImage(named: "3")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -193,6 +200,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Grand Army Plaza")
+                                Image(uiImage: UIImage(named: "3")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -206,6 +216,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Bergen St")
+                                Image(uiImage: UIImage(named: "3")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -289,6 +302,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Hoyt St")
+                                Image(uiImage: UIImage(named: "3")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -302,21 +318,15 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack {
                                 Text("Borough Hall")
-                                Image(uiImage: UIImage(named: "n")!)
-                                    .resizable()
-                                    .frame(width: 21.0, height: 21.0)
-                                Image(uiImage: UIImage(named: "r")!)
-                                    .resizable()
-                                    .frame(width: 21.0, height: 21.0)
                                 Image(uiImage: UIImage(named: "3")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "4")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "5")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -330,6 +340,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Clark St")
+                                Image(uiImage: UIImage(named: "3")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -349,6 +362,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Wall St")
+                                Image(uiImage: UIImage(named: "3")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -408,6 +424,12 @@ struct TwoTrainDowntownView: View {
                                 Image(uiImage: UIImage(named: "e")!)
                                     .resizable()
                                     .frame(width: 26.0, height: 26.0)
+                                Image(uiImage: UIImage(named: "r")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                                Image(uiImage: UIImage(named: "w")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "3")!)
                                     .resizable()
                                     .frame(width: 26.0, height: 26.0)
@@ -441,61 +463,9 @@ struct TwoTrainDowntownView: View {
                         
                         Button(action: {
                         }, label: {
-                            HStack{
-                                Text("Franklin St")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-                        
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("Canal St")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("Houston St")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("Christopher St - Sheridan Sq")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-                        
-                        Button(action: {
-                        }, label: {
                             HStack {
                                 Text("14 St")
-                                Image(uiImage: UIImage(named: "2")!)
+                                Image(uiImage: UIImage(named: "1")!)
                                     .resizable()
                                     .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "3")!)
@@ -519,45 +489,7 @@ struct TwoTrainDowntownView: View {
                             .clipShape(Capsule())
                             
                         })
-                        
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("18 St")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-                        
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("23 St")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-                        
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("28 St")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
+
                     }
                         
                         Group { // group 4
@@ -640,54 +572,6 @@ struct TwoTrainDowntownView: View {
                             Button(action: {
                             }, label: {
                                 HStack{
-                                    Text("50 St")
-                                }
-                                .font(.headline)
-                                .foregroundColor(.white)
-                                .frame(width: 360, height: 50)
-                                .background(Color(.black))
-                                .buttonStyle(.bordered)
-                                .clipShape(Capsule())
-                            })
-                            
-                            Button(action: {
-                            }, label: {
-                                HStack {
-                                    Text("59 St - Columbus Circle")
-                                    Image(uiImage: UIImage(named: "a")!)
-                                        .resizable()
-                                        .frame(width: 26.0, height: 26.0)
-                                    Image(uiImage: UIImage(named: "d")!)
-                                        .resizable()
-                                        .frame(width: 26.0, height: 26.0)
-                                    Image(uiImage: UIImage(named: "1")!)
-                                        .resizable()
-                                        .frame(width: 26.0, height: 26.0)
-                                }
-                                .font(.headline)
-                                .foregroundColor(.white)
-                                .frame(width: 360, height: 50)
-                                .background(Color(.black))
-                                .buttonStyle(.bordered)
-                                .clipShape(Capsule())
-                            })
-                            
-                            Button(action: {
-                            }, label: {
-                                HStack{
-                                    Text("68 St - Lincoln Ctr")
-                                }
-                                .font(.headline)
-                                .foregroundColor(.white)
-                                .frame(width: 360, height: 50)
-                                .background(Color(.black))
-                                .buttonStyle(.bordered)
-                                .clipShape(Capsule())
-                            })
-                            
-                            Button(action: {
-                            }, label: {
-                                HStack{
                                     Text("72 St")
                                     Image(uiImage: UIImage(named: "1")!)
                                         .resizable()
@@ -695,32 +579,6 @@ struct TwoTrainDowntownView: View {
                                     Image(uiImage: UIImage(named: "3")!)
                                         .resizable()
                                         .frame(width: 26.0, height: 26.0)
-                                }
-                                .font(.headline)
-                                .foregroundColor(.white)
-                                .frame(width: 360, height: 50)
-                                .background(Color(.black))
-                                .buttonStyle(.bordered)
-                                .clipShape(Capsule())
-                            })
-                            
-                            Button(action: {
-                            }, label: {
-                                HStack{
-                                    Text("79 St")
-                                }
-                                .font(.headline)
-                                .foregroundColor(.white)
-                                .frame(width: 360, height: 50)
-                                .background(Color(.black))
-                                .buttonStyle(.bordered)
-                                .clipShape(Capsule())
-                            })
-                            
-                            Button(action: {
-                            }, label: {
-                                HStack{
-                                    Text("86 St")
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -753,6 +611,9 @@ struct TwoTrainDowntownView: View {
                             }, label: {
                                 HStack{
                                     Text("Central Pk North - 110 St")
+                                    Image(uiImage: UIImage(named: "3")!)
+                                        .resizable()
+                                        .frame(width: 26.0, height: 26.0)
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -769,6 +630,9 @@ struct TwoTrainDowntownView: View {
                             }, label: {
                                 HStack{
                                     Text("116 St")
+                                    Image(uiImage: UIImage(named: "3")!)
+                                        .resizable()
+                                        .frame(width: 26.0, height: 26.0)
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -782,6 +646,9 @@ struct TwoTrainDowntownView: View {
                             }, label: {
                                 HStack{
                                     Text("125 St")
+                                    Image(uiImage: UIImage(named: "3")!)
+                                        .resizable()
+                                        .frame(width: 26.0, height: 26.0)
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -816,10 +683,7 @@ struct TwoTrainDowntownView: View {
                             Button(action: {
                             }, label: {
                                 HStack{
-                                    Text("149 St")
-                                    Image(uiImage: UIImage(named: "4")!)
-                                        .resizable()
-                                        .frame(width: 26.0, height: 26.0)
+                                    Text("149 St - Grand Concourse")
                                     Image(uiImage: UIImage(named: "5")!)
                                         .resizable()
                                         .frame(width: 26.0, height: 26.0)
@@ -852,6 +716,9 @@ struct TwoTrainDowntownView: View {
                             }, label: {
                                 HStack{
                                     Text("Jackson Av")
+                                    Image(uiImage: UIImage(named: "5")!)
+                                        .resizable()
+                                        .frame(width: 26.0, height: 26.0)
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -865,6 +732,9 @@ struct TwoTrainDowntownView: View {
                             }, label: {
                                 HStack{
                                     Text("Prospect Av")
+                                    Image(uiImage: UIImage(named: "5")!)
+                                        .resizable()
+                                        .frame(width: 26.0, height: 26.0)
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -878,6 +748,9 @@ struct TwoTrainDowntownView: View {
                             }, label: {
                                 HStack{
                                     Text("Intervale Av")
+                                    Image(uiImage: UIImage(named: "5")!)
+                                        .resizable()
+                                        .frame(width: 26.0, height: 26.0)
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -891,6 +764,9 @@ struct TwoTrainDowntownView: View {
                             }, label: {
                                 HStack{
                                     Text("Simpson St")
+                                    Image(uiImage: UIImage(named: "5")!)
+                                        .resizable()
+                                        .frame(width: 26.0, height: 26.0)
                                 }
                                 .font(.headline)
                                 .foregroundColor(.white)
@@ -907,6 +783,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Freeman St")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -920,6 +799,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("174 St")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -933,6 +815,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("West Farms Sq - E Tremont Av")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -962,6 +847,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Bronx Park East")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -991,6 +879,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Allerton Av")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -1004,6 +895,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Burke Av")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -1033,6 +927,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("219 St")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -1049,6 +946,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("225 St")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -1094,6 +994,9 @@ struct TwoTrainDowntownView: View {
                         }, label: {
                             HStack{
                                 Text("Wakefield - 241 St")
+                                Image(uiImage: UIImage(named: "5")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)

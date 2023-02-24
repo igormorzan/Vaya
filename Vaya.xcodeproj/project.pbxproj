@@ -19,6 +19,8 @@
 		89A6F51B2999A50D00E5052F /* AuthenticationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6F51A2999A50D00E5052F /* AuthenticationHeaderView.swift */; };
 		89AAF5F229A68FDC004AC0D0 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 89AAF5F129A68FDC004AC0D0 /* PopupView */; };
 		89AAF5F629A7ADB3004AC0D0 /* OneTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AAF5F529A7ADB3004AC0D0 /* OneTrainUptownView.swift */; };
+		89B0BE8A29A8FF58001DAC12 /* ThreeTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE8929A8FF58001DAC12 /* ThreeTrainUptownView.swift */; };
+		89B0BE8C29A90DA2001DAC12 /* ThreeTrainDowntownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE8B29A90DA2001DAC12 /* ThreeTrainDowntownView.swift */; };
 		89CF4457299B52D400D2F95F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89CF4456299B52D400D2F95F /* GoogleService-Info.plist */; };
 		89CF445A299B53EB00D2F95F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF4459299B53EB00D2F95F /* FirebaseAuth */; };
 		89CF445C299B53EB00D2F95F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF445B299B53EB00D2F95F /* FirebaseFirestore */; };
@@ -44,6 +46,8 @@
 		89A6F5172999A2BD00E5052F /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
 		89A6F51A2999A50D00E5052F /* AuthenticationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHeaderView.swift; sourceTree = "<group>"; };
 		89AAF5F529A7ADB3004AC0D0 /* OneTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTrainUptownView.swift; sourceTree = "<group>"; };
+		89B0BE8929A8FF58001DAC12 /* ThreeTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTrainUptownView.swift; sourceTree = "<group>"; };
+		89B0BE8B29A90DA2001DAC12 /* ThreeTrainDowntownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTrainDowntownView.swift; sourceTree = "<group>"; };
 		89CF4456299B52D400D2F95F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		89CF4461299C732700D2F95F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		89CF4463299C93E900D2F95F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
@@ -68,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		890F2C0229A8785900E3C0C6 /* ThreeTrain */ = {
+			isa = PBXGroup;
+			children = (
+				89B0BE8929A8FF58001DAC12 /* ThreeTrainUptownView.swift */,
+				89B0BE8B29A90DA2001DAC12 /* ThreeTrainDowntownView.swift */,
+			);
+			path = ThreeTrain;
+			sourceTree = "<group>";
+		};
 		89A6F4F529998AA900E5052F = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +153,7 @@
 		89AAF5F329A7AD74004AC0D0 /* TrainStationViews */ = {
 			isa = PBXGroup;
 			children = (
+				890F2C0229A8785900E3C0C6 /* ThreeTrain */,
 				89E06C3129A8150000400A41 /* TwoTrain */,
 				89AAF5F429A7AD9A004AC0D0 /* OneTrain */,
 			);
@@ -252,7 +266,9 @@
 				89A6F5182999A2BD00E5052F /* CustomInputField.swift in Sources */,
 				89A6F51129998B5900E5052F /* LoginView.swift in Sources */,
 				89A6F50229998AA900E5052F /* VayaApp.swift in Sources */,
+				89B0BE8A29A8FF58001DAC12 /* ThreeTrainUptownView.swift in Sources */,
 				89CF4464299C93E900D2F95F /* AuthenticationViewModel.swift in Sources */,
+				89B0BE8C29A90DA2001DAC12 /* ThreeTrainDowntownView.swift in Sources */,
 				89A6F51429998FD400E5052F /* RoundedShape.swift in Sources */,
 				890F2C0129A8772800E3C0C6 /* TwoTrainDowntownView.swift in Sources */,
 				89E06C2E29A8108B00400A41 /* OneTrainDowntownView.swift in Sources */,

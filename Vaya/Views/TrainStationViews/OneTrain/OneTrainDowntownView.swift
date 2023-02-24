@@ -15,18 +15,16 @@ struct OneTrainDowntownView: View {
                     Spacer()
                 }
                 HStack {
-                    Text("Select Your Downtown")
-                        // .font(.largeTitle)
+                    Text("Select Your Uptown")
+                        .font(.largeTitle)
                         .fontWeight(.semibold)
-                        .font(.system(size: 30))
                     Image(uiImage: UIImage(named: "1")!)
                         .resizable()
                         .frame(width: 45.0, height: 45.0)
                 }
                 Text("Station Below.")
-                    // .font(.largeTitle)
+                    .font(.largeTitle)
                     .fontWeight(.semibold)
-                    .font(.system(size: 30))
             }
             .frame(height: 210)
             .padding(.leading)
@@ -36,10 +34,11 @@ struct OneTrainDowntownView: View {
             
             ScrollView(showsIndicators: false) {
                 Text("MANHATTAN")
+                    .padding(.top, 5.7)
                     .font(.system(size: 28))
                     .font(.headline)
                     .fontWeight(.bold)
-                    .padding(.bottom, 3)
+                    .padding(.bottom, 5.7)
                 
                 VStack {
                     Group { // group 1
@@ -47,9 +46,6 @@ struct OneTrainDowntownView: View {
                     }, label: {
                         HStack {
                             Text("South Ferry")
-                            Image(uiImage: UIImage(named: "n")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
                             Image(uiImage: UIImage(named: "r")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
@@ -327,19 +323,16 @@ struct OneTrainDowntownView: View {
                                 Text("59 St - Columbus Circle")
                                 Image(uiImage: UIImage(named: "a")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "c")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "b")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "d")!)
                                     .resizable()
-                                    .frame(width: 21.0, height: 21.0)
-                                Image(uiImage: UIImage(named: "2")!)
-                                    .resizable()
-                                    .frame(width: 21.0, height: 21.0)
+                                    .frame(width: 26.0, height: 26.0)
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -352,7 +345,7 @@ struct OneTrainDowntownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("68 St - Lincoln Ctr")
+                                Text("66 St - Lincoln Ctr")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -444,7 +437,7 @@ struct OneTrainDowntownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Cathedral Parkway (110 St)")
+                                Text("Cathedral Pkwy - 110 St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
