@@ -352,7 +352,7 @@ struct OneTrainDowntownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("68 St - Lincoln Center")
+                                Text("68 St - Lincoln Ctr")
                             }
                             .font(.headline)
                             .foregroundColor(.white)

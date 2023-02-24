@@ -1,5 +1,5 @@
 //
-//  TwoTrainUptownView.swift
+//  TwoTrainDowntownView.swift
 //  Vaya
 //
 //  Created by Igor Morzan on 2/23/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TwoTrainUptownView: View {
+struct TwoTrainDowntownView: View {
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
@@ -15,16 +15,16 @@ struct TwoTrainUptownView: View {
                     Spacer()
                 }
                 HStack {
-                    Text("Select Your Uptown")
-                        .font(.largeTitle)
+                    Text("Select Your Downtown")
                         .fontWeight(.semibold)
+                        .font(.system(size: 30))
                     Image(uiImage: UIImage(named: "2")!)
                         .resizable()
                         .frame(width: 45.0, height: 45.0)
                 }
                 Text("Station Below.")
-                    .font(.largeTitle)
                     .fontWeight(.semibold)
+                    .font(.system(size: 30))
             }
             .frame(height: 210)
             .padding(.leading)
@@ -1114,8 +1114,8 @@ struct TwoTrainUptownView: View {
     }
 }
 
-struct TwoTrainUptownView_Previews: PreviewProvider {
+struct TwoTrainDowntownView_Previews: PreviewProvider {
     static var previews: some View {
-        TwoTrainUptownView()
+        TwoTrainDowntownView()
     }
 }

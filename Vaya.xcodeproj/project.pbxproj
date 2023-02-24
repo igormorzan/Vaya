@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890F2C0129A8772800E3C0C6 /* TwoTrainDowntownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F2C0029A8772800E3C0C6 /* TwoTrainDowntownView.swift */; };
 		897D018129A3FA1E00EE7A03 /* TrainSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D018029A3FA1E00EE7A03 /* TrainSelector.swift */; };
 		89A6F50229998AA900E5052F /* VayaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6F50129998AA900E5052F /* VayaApp.swift */; };
 		89A6F50629998AB100E5052F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A6F50529998AB100E5052F /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		890F2C0029A8772800E3C0C6 /* TwoTrainDowntownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTrainDowntownView.swift; sourceTree = "<group>"; };
 		897D018029A3FA1E00EE7A03 /* TrainSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSelector.swift; sourceTree = "<group>"; };
 		89A6F4FE29998AA900E5052F /* Vaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A6F50129998AA900E5052F /* VayaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VayaApp.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				89E06C3229A8166100400A41 /* TwoTrainUptownView.swift */,
+				890F2C0029A8772800E3C0C6 /* TwoTrainDowntownView.swift */,
 			);
 			path = TwoTrain;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				89A6F50229998AA900E5052F /* VayaApp.swift in Sources */,
 				89CF4464299C93E900D2F95F /* AuthenticationViewModel.swift in Sources */,
 				89A6F51429998FD400E5052F /* RoundedShape.swift in Sources */,
+				890F2C0129A8772800E3C0C6 /* TwoTrainDowntownView.swift in Sources */,
 				89E06C2E29A8108B00400A41 /* OneTrainDowntownView.swift in Sources */,
 				89A6F5162999A07C00E5052F /* RegistrationView.swift in Sources */,
 				89E06C3329A8166100400A41 /* TwoTrainUptownView.swift in Sources */,
