@@ -970,7 +970,7 @@ struct TrainSelector: View {
                     HStack{
                         Image(systemName: "tram.fill").renderingMode(.original).resizable().frame(width: 23, height: 35)
                             .foregroundColor(.black)
-                        Text("Uptown").foregroundColor(.black)
+                        Text("Eastbound").foregroundColor(.black)
                             .font(.system(size: 17))
 
                     }
@@ -983,7 +983,7 @@ struct TrainSelector: View {
                     HStack{
                         Image(systemName: "tram").renderingMode(.original).resizable().frame(width: 24, height: 35)
                             .foregroundColor(.black)
-                        Text("Downtown").foregroundColor(.black)
+                        Text("Westbound").foregroundColor(.black)
                             .font(.system(size: 17))
 
                     }
@@ -1600,7 +1600,7 @@ struct TrainSelector: View {
                     HStack{
                         Image(systemName: "tram.fill").renderingMode(.original).resizable().frame(width: 23, height: 35)
                             .foregroundColor(.black)
-                        Text("Uptown").foregroundColor(.black)
+                        Text("Eastbound").foregroundColor(.black)
                             .font(.system(size: 17))
 
                     }
@@ -1613,7 +1613,7 @@ struct TrainSelector: View {
                     HStack{
                         Image(systemName: "tram").renderingMode(.original).resizable().frame(width: 24, height: 35)
                             .foregroundColor(.black)
-                        Text("Downtown").foregroundColor(.black)
+                        Text("Westbound").foregroundColor(.black)
                             .font(.system(size: 17))
 
                     }

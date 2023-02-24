@@ -1,5 +1,5 @@
 //
-//  LTrainDowntownView.swift
+//  LTrainWestboundView.swift
 //  Vaya
 //
 //  Created by Igor Morzan on 2/24/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LTrainDowntownView: View {
+struct LTrainWestboundView: View {
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
@@ -15,7 +15,7 @@ struct LTrainDowntownView: View {
                     Spacer()
                 }
                 HStack {
-                    Text("Select Your Downtown")
+                    Text("Select Your Westbound")
                         .font(.system(size: 30))
                         .fontWeight(.semibold)
                     Image(uiImage: UIImage(named: "l")!)
@@ -458,8 +458,8 @@ struct LTrainDowntownView: View {
     }
 }
 
-struct LTrainDowntownView_Previews: PreviewProvider {
+struct LTrainWestboundView_Previews: PreviewProvider {
     static var previews: some View {
-        LTrainDowntownView()
+        LTrainWestboundView()
     }
 }

@@ -21,12 +21,12 @@
 		89AAF5F629A7ADB3004AC0D0 /* OneTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AAF5F529A7ADB3004AC0D0 /* OneTrainUptownView.swift */; };
 		89B0BE8A29A8FF58001DAC12 /* ThreeTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE8929A8FF58001DAC12 /* ThreeTrainUptownView.swift */; };
 		89B0BE8C29A90DA2001DAC12 /* ThreeTrainDowntownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE8B29A90DA2001DAC12 /* ThreeTrainDowntownView.swift */; };
-		89B0BE8F29A9191B001DAC12 /* SevenTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE8E29A9191B001DAC12 /* SevenTrainUptownView.swift */; };
-		89B0BE9129A9398C001DAC12 /* SevenTrainDowntownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9029A9398C001DAC12 /* SevenTrainDowntownView.swift */; };
-		89B0BE9429A94A63001DAC12 /* LTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9329A94A63001DAC12 /* LTrainUptownView.swift */; };
-		89B0BE9629A9516B001DAC12 /* LTrainDowntownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9529A9516B001DAC12 /* LTrainDowntownView.swift */; };
 		89B0BE9929A9523F001DAC12 /* GTrainUptownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9829A9523F001DAC12 /* GTrainUptownView.swift */; };
 		89B0BE9B29A9569D001DAC12 /* GTrainDowntownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9A29A9569D001DAC12 /* GTrainDowntownView.swift */; };
+		89B0BE9D29A95AE1001DAC12 /* LTrainEastboundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9C29A95AE1001DAC12 /* LTrainEastboundView.swift */; };
+		89B0BE9F29A95AFD001DAC12 /* LTrainWestboundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9E29A95AFD001DAC12 /* LTrainWestboundView.swift */; };
+		89B0BEA129A95BBF001DAC12 /* SevenTrainEastboundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BEA029A95BBF001DAC12 /* SevenTrainEastboundView.swift */; };
+		89B0BEA329A95BCE001DAC12 /* SevenTrainWestboundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BEA229A95BCE001DAC12 /* SevenTrainWestboundView.swift */; };
 		89CF4457299B52D400D2F95F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89CF4456299B52D400D2F95F /* GoogleService-Info.plist */; };
 		89CF445A299B53EB00D2F95F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF4459299B53EB00D2F95F /* FirebaseAuth */; };
 		89CF445C299B53EB00D2F95F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF445B299B53EB00D2F95F /* FirebaseFirestore */; };
@@ -54,12 +54,12 @@
 		89AAF5F529A7ADB3004AC0D0 /* OneTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTrainUptownView.swift; sourceTree = "<group>"; };
 		89B0BE8929A8FF58001DAC12 /* ThreeTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTrainUptownView.swift; sourceTree = "<group>"; };
 		89B0BE8B29A90DA2001DAC12 /* ThreeTrainDowntownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTrainDowntownView.swift; sourceTree = "<group>"; };
-		89B0BE8E29A9191B001DAC12 /* SevenTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenTrainUptownView.swift; sourceTree = "<group>"; };
-		89B0BE9029A9398C001DAC12 /* SevenTrainDowntownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenTrainDowntownView.swift; sourceTree = "<group>"; };
-		89B0BE9329A94A63001DAC12 /* LTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTrainUptownView.swift; sourceTree = "<group>"; };
-		89B0BE9529A9516B001DAC12 /* LTrainDowntownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTrainDowntownView.swift; sourceTree = "<group>"; };
 		89B0BE9829A9523F001DAC12 /* GTrainUptownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTrainUptownView.swift; sourceTree = "<group>"; };
 		89B0BE9A29A9569D001DAC12 /* GTrainDowntownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTrainDowntownView.swift; sourceTree = "<group>"; };
+		89B0BE9C29A95AE1001DAC12 /* LTrainEastboundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTrainEastboundView.swift; sourceTree = "<group>"; };
+		89B0BE9E29A95AFD001DAC12 /* LTrainWestboundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTrainWestboundView.swift; sourceTree = "<group>"; };
+		89B0BEA029A95BBF001DAC12 /* SevenTrainEastboundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenTrainEastboundView.swift; sourceTree = "<group>"; };
+		89B0BEA229A95BCE001DAC12 /* SevenTrainWestboundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenTrainWestboundView.swift; sourceTree = "<group>"; };
 		89CF4456299B52D400D2F95F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		89CF4461299C732700D2F95F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		89CF4463299C93E900D2F95F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 		89B0BE8D29A91908001DAC12 /* SevenTrain */ = {
 			isa = PBXGroup;
 			children = (
-				89B0BE8E29A9191B001DAC12 /* SevenTrainUptownView.swift */,
-				89B0BE9029A9398C001DAC12 /* SevenTrainDowntownView.swift */,
+				89B0BEA029A95BBF001DAC12 /* SevenTrainEastboundView.swift */,
+				89B0BEA229A95BCE001DAC12 /* SevenTrainWestboundView.swift */,
 			);
 			path = SevenTrain;
 			sourceTree = "<group>";
@@ -196,8 +196,8 @@
 		89B0BE9229A94A4F001DAC12 /* LTrain */ = {
 			isa = PBXGroup;
 			children = (
-				89B0BE9329A94A63001DAC12 /* LTrainUptownView.swift */,
-				89B0BE9529A9516B001DAC12 /* LTrainDowntownView.swift */,
+				89B0BE9C29A95AE1001DAC12 /* LTrainEastboundView.swift */,
+				89B0BE9E29A95AFD001DAC12 /* LTrainWestboundView.swift */,
 			);
 			path = LTrain;
 			sourceTree = "<group>";
@@ -302,27 +302,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B0BE9D29A95AE1001DAC12 /* LTrainEastboundView.swift in Sources */,
 				89AAF5F629A7ADB3004AC0D0 /* OneTrainUptownView.swift in Sources */,
-				89B0BE8F29A9191B001DAC12 /* SevenTrainUptownView.swift in Sources */,
 				89CF4462299C732700D2F95F /* SplashScreenView.swift in Sources */,
+				89B0BE9F29A95AFD001DAC12 /* LTrainWestboundView.swift in Sources */,
 				897D018129A3FA1E00EE7A03 /* TrainSelector.swift in Sources */,
 				89B0BE9929A9523F001DAC12 /* GTrainUptownView.swift in Sources */,
-				89B0BE9629A9516B001DAC12 /* LTrainDowntownView.swift in Sources */,
 				89A6F5182999A2BD00E5052F /* CustomInputField.swift in Sources */,
 				89A6F51129998B5900E5052F /* LoginView.swift in Sources */,
 				89A6F50229998AA900E5052F /* VayaApp.swift in Sources */,
 				89B0BE9B29A9569D001DAC12 /* GTrainDowntownView.swift in Sources */,
-				89B0BE9429A94A63001DAC12 /* LTrainUptownView.swift in Sources */,
 				89B0BE8A29A8FF58001DAC12 /* ThreeTrainUptownView.swift in Sources */,
 				89CF4464299C93E900D2F95F /* AuthenticationViewModel.swift in Sources */,
 				89B0BE8C29A90DA2001DAC12 /* ThreeTrainDowntownView.swift in Sources */,
 				89A6F51429998FD400E5052F /* RoundedShape.swift in Sources */,
-				89B0BE9129A9398C001DAC12 /* SevenTrainDowntownView.swift in Sources */,
 				890F2C0129A8772800E3C0C6 /* TwoTrainDowntownView.swift in Sources */,
 				89E06C2E29A8108B00400A41 /* OneTrainDowntownView.swift in Sources */,
 				89A6F5162999A07C00E5052F /* RegistrationView.swift in Sources */,
 				89E06C3329A8166100400A41 /* TwoTrainUptownView.swift in Sources */,
 				89A6F51B2999A50D00E5052F /* AuthenticationHeaderView.swift in Sources */,
+				89B0BEA329A95BCE001DAC12 /* SevenTrainWestboundView.swift in Sources */,
+				89B0BEA129A95BBF001DAC12 /* SevenTrainEastboundView.swift in Sources */,
 				89CF446629A1E1B500D2F95F /* TrainPlatformView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

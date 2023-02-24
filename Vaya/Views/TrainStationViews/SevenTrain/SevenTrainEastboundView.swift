@@ -1,5 +1,5 @@
 //
-//  LTrainUptownView.swift
+//  SevenTrainEastboundView.swift
 //  Vaya
 //
 //  Created by Igor Morzan on 2/24/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LTrainUptownView: View {
+struct SevenTrainEastboundView: View {
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
@@ -15,15 +15,15 @@ struct LTrainUptownView: View {
                     Spacer()
                 }
                 HStack {
-                    Text("Select Your Uptown")
-                        .font(.largeTitle)
+                    Text("Select Your Eastbound")
+                        .font(.system(size: 30))
                         .fontWeight(.semibold)
-                    Image(uiImage: UIImage(named: "l")!)
+                    Image(uiImage: UIImage(named: "7")!)
                         .resizable()
                         .frame(width: 45.0, height: 45.0)
                 }
                 Text("Station Below.")
-                    .font(.largeTitle)
+                    .font(.system(size: 30))
                     .fontWeight(.semibold)
             }
             // .padding(.top, 27)
@@ -46,44 +46,7 @@ struct LTrainUptownView: View {
                     Button(action: {
                     }, label: {
                         HStack {
-                            Text("8 Av")
-                            Image(uiImage: UIImage(named: "a")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "c")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "e")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                        }
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .frame(width: 360, height: 50)
-                        .background(Color(.black))
-                        .buttonStyle(.bordered)
-                        .clipShape(Capsule())
-                    })
-                    
-                    Button(action: {
-                    }, label: {
-                        HStack{
-                            Text("6 Av - 14 St")
-                            Image(uiImage: UIImage(named: "f")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "m")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "1")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "2")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
-                            Image(uiImage: UIImage(named: "3")!)
-                                .resizable()
-                                .frame(width: 26.0, height: 26.0)
+                            Text("34th St - Hudson Yards")
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -96,8 +59,27 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("14 St - Union Sq")
+                                Text("Times Sq - 42 St")
                                 VStack(spacing: 4) {
+                                    HStack {
+                                        Image(uiImage: UIImage(named: "a")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "c")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "e")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "s")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                        Image(uiImage: UIImage(named: "1")!)
+                                            .resizable()
+                                            .frame(width: 18.0, height: 18.0)
+                                    }
+                                    .padding(.top, 4)
+
                                     HStack {
                                         Image(uiImage: UIImage(named: "n")!)
                                             .resizable()
@@ -111,17 +93,10 @@ struct LTrainUptownView: View {
                                         Image(uiImage: UIImage(named: "w")!)
                                             .resizable()
                                             .frame(width: 18.0, height: 18.0)
-                                    }
-                                    .padding(.top, 4)
-
-                                    HStack {
-                                        Image(uiImage: UIImage(named: "4")!)
+                                        Image(uiImage: UIImage(named: "2")!)
                                             .resizable()
                                             .frame(width: 18.0, height: 18.0)
-                                        Image(uiImage: UIImage(named: "5")!)
-                                            .resizable()
-                                            .frame(width: 18.0, height: 18.0)
-                                        Image(uiImage: UIImage(named: "6")!)
+                                        Image(uiImage: UIImage(named: "3")!)
                                             .resizable()
                                             .frame(width: 18.0, height: 18.0)
                                     }
@@ -137,11 +112,23 @@ struct LTrainUptownView: View {
                             .buttonStyle(.bordered)
                             .clipShape(Capsule())
                         })
-
+                    
                     Button(action: {
                     }, label: {
                         HStack{
-                            Text("3rd Av")
+                            Text("5 Av")
+                            Image(uiImage: UIImage(named: "b")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "d")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "f")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "m")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -154,7 +141,19 @@ struct LTrainUptownView: View {
                     Button(action: {
                     }, label: {
                         HStack{
-                            Text("1 Av")
+                            Text("Grand Central - 42 St")
+                            Image(uiImage: UIImage(named: "s")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "4")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "5")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "6")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -164,18 +163,17 @@ struct LTrainUptownView: View {
                         .clipShape(Capsule())
                     })
                         
-                        
-                        Text("BROOKLYN")
+                        Text("QUEENS")
                             .padding(.top, 5.7)
                             .font(.system(size: 28))
                             .font(.headline)
                             .fontWeight(.bold)
                             .padding(.bottom, 5.7)
-                    
+
                     Button(action: {
                     }, label: {
                         HStack{
-                            Text("Bedford Av")
+                            Text("Vernon Blvd - Jackson Av")
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -188,8 +186,46 @@ struct LTrainUptownView: View {
                     Button(action: {
                     }, label: {
                         HStack{
-                            Text("Lorimer St")
+                            Text("Hunters Point Av")
+                        }
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(width: 360, height: 50)
+                        .background(Color(.black))
+                        .buttonStyle(.bordered)
+                        .clipShape(Capsule())
+                    })
+                    
+                    Button(action: {
+                    }, label: {
+                        HStack{
+                            Text("Court Sq")
+                            Image(uiImage: UIImage(named: "e")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
                             Image(uiImage: UIImage(named: "g")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "m")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                        }
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(width: 360, height: 50)
+                        .background(Color(.black))
+                        .buttonStyle(.bordered)
+                        .clipShape(Capsule())
+                    })
+                    
+                    Button(action: {
+                    }, label: {
+                        HStack{
+                            Text("Queensboro Plaza")
+                            Image(uiImage: UIImage(named: "n")!)
+                                .resizable()
+                                .frame(width: 26.0, height: 26.0)
+                            Image(uiImage: UIImage(named: "w")!)
                                 .resizable()
                                 .frame(width: 26.0, height: 26.0)
                         }
@@ -207,7 +243,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Graham Av")
+                                Text("33 St - Rawson St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -220,7 +256,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Grand St")
+                                Text("40 St - Lowery St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -233,7 +269,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Montrose Av")
+                                Text("46 St - Bliss St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -246,7 +282,7 @@ struct LTrainUptownView: View {
                     Button(action: {
                     }, label: {
                         HStack{
-                            Text("Morgan Av")
+                            Text("52 St")
                         }
                         .font(.headline)
                         .foregroundColor(.white)
@@ -259,7 +295,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Jefferson St")
+                                Text("61 St - Woodside")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -272,7 +308,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Dekalb Av")
+                                Text("69 St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -285,8 +321,17 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack {
-                                Text("Myrtle - Wyckoff Avs")
+                                Text("74 St - Broadway")
+                                Image(uiImage: UIImage(named: "e")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                                Image(uiImage: UIImage(named: "f")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
                                 Image(uiImage: UIImage(named: "m")!)
+                                    .resizable()
+                                    .frame(width: 26.0, height: 26.0)
+                                Image(uiImage: UIImage(named: "r")!)
                                     .resizable()
                                     .frame(width: 26.0, height: 26.0)
                             }
@@ -301,7 +346,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Halsey St")
+                                Text("82nd St - Jackson Hts")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -317,7 +362,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Wilson Av")
+                                Text("90 St - Elmhurst Av")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -330,7 +375,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Bushwick Av")
+                                Text("Junction Blvd")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -344,19 +389,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Broadway Junction")
-                                Image(uiImage: UIImage(named: "a")!)
-                                    .resizable()
-                                    .frame(width: 26.0, height: 26.0)
-                                Image(uiImage: UIImage(named: "c")!)
-                                    .resizable()
-                                    .frame(width: 26.0, height: 26.0)
-                                Image(uiImage: UIImage(named: "j")!)
-                                    .resizable()
-                                    .frame(width: 26.0, height: 26.0)
-                                Image(uiImage: UIImage(named: "z")!)
-                                    .resizable()
-                                    .frame(width: 26.0, height: 26.0)
+                                Text("103 St - Corona Plaza")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -369,7 +402,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Atlantic Av")
+                                Text("111 St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -382,7 +415,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack {
-                                Text("Sutter Av")
+                                Text("Mets - Willets Pt")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -396,7 +429,7 @@ struct LTrainUptownView: View {
                         Button(action: {
                         }, label: {
                             HStack{
-                                Text("Livonia Av")
+                                Text("Flushing - Main St")
                             }
                             .font(.headline)
                             .foregroundColor(.white)
@@ -406,47 +439,6 @@ struct LTrainUptownView: View {
                             .clipShape(Capsule())
                         })
 
-                    }
-                    
-                    Group { // group 5
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("New Lots Av")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-                        
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("East 105 St")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
-                        
-                        Button(action: {
-                        }, label: {
-                            HStack{
-                                Text("Canarsie - Rockaway Pkwy")
-                            }
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .frame(width: 360, height: 50)
-                            .background(Color(.black))
-                            .buttonStyle(.bordered)
-                            .clipShape(Capsule())
-                        })
                     }
 
                 }
@@ -458,8 +450,8 @@ struct LTrainUptownView: View {
     }
 }
 
-struct LTrainUptownView_Previews: PreviewProvider {
+struct SevenTrainEastboundView_Previews: PreviewProvider {
     static var previews: some View {
-        LTrainUptownView()
+        SevenTrainEastboundView()
     }
 }

@@ -1,5 +1,5 @@
 //
-//  SevenTrainDowntownView.swift
+//  SevenTrainWestboundView.swift
 //  Vaya
 //
 //  Created by Igor Morzan on 2/24/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SevenTrainDowntownView: View {
+struct SevenTrainWestboundView: View {
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
@@ -15,16 +15,16 @@ struct SevenTrainDowntownView: View {
                     Spacer()
                 }
                 HStack {
-                    Text("Select Your Downtown")
-                        .fontWeight(.semibold)
+                    Text("Select Your Westbound")
                         .font(.system(size: 30))
+                        .fontWeight(.semibold)
                     Image(uiImage: UIImage(named: "7")!)
                         .resizable()
                         .frame(width: 45.0, height: 45.0)
                 }
                 Text("Station Below.")
-                    .fontWeight(.semibold)
                     .font(.system(size: 30))
+                    .fontWeight(.semibold)
             }
             // .padding(.top, 27)
             .frame(height: 210)
@@ -450,8 +450,8 @@ struct SevenTrainDowntownView: View {
     }
 }
 
-struct SevenTrainDowntownView_Previews: PreviewProvider {
+struct SevenTrainWestboundView_Previews: PreviewProvider {
     static var previews: some View {
-        SevenTrainDowntownView()
+        SevenTrainWestboundView()
     }
 }
