@@ -27,7 +27,6 @@
 		89B0BE9F29A95AFD001DAC12 /* LTrainWestboundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BE9E29A95AFD001DAC12 /* LTrainWestboundView.swift */; };
 		89B0BEA129A95BBF001DAC12 /* SevenTrainEastboundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BEA029A95BBF001DAC12 /* SevenTrainEastboundView.swift */; };
 		89B0BEA329A95BCE001DAC12 /* SevenTrainWestboundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0BEA229A95BCE001DAC12 /* SevenTrainWestboundView.swift */; };
-		89CF4457299B52D400D2F95F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89CF4456299B52D400D2F95F /* GoogleService-Info.plist */; };
 		89CF445A299B53EB00D2F95F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF4459299B53EB00D2F95F /* FirebaseAuth */; };
 		89CF445C299B53EB00D2F95F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF445B299B53EB00D2F95F /* FirebaseFirestore */; };
 		89CF445E299B53EB00D2F95F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 89CF445D299B53EB00D2F95F /* FirebaseFirestoreSwift */; };
@@ -60,7 +59,6 @@
 		89B0BE9E29A95AFD001DAC12 /* LTrainWestboundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTrainWestboundView.swift; sourceTree = "<group>"; };
 		89B0BEA029A95BBF001DAC12 /* SevenTrainEastboundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenTrainEastboundView.swift; sourceTree = "<group>"; };
 		89B0BEA229A95BCE001DAC12 /* SevenTrainWestboundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenTrainWestboundView.swift; sourceTree = "<group>"; };
-		89CF4456299B52D400D2F95F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		89CF4461299C732700D2F95F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		89CF4463299C93E900D2F95F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		89CF446529A1E1B500D2F95F /* TrainPlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPlatformView.swift; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 				89A6F50F29998B1500E5052F /* Views */,
 				89A6F50129998AA900E5052F /* VayaApp.swift */,
 				89A6F50529998AB100E5052F /* Assets.xcassets */,
-				89CF4456299B52D400D2F95F /* GoogleService-Info.plist */,
 				89A6F50729998AB100E5052F /* Preview Content */,
 			);
 			path = Vaya;
@@ -291,7 +288,6 @@
 			files = (
 				89A6F50929998AB100E5052F /* Preview Assets.xcassets in Resources */,
 				89A6F50629998AB100E5052F /* Assets.xcassets in Resources */,
-				89CF4457299B52D400D2F95F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
