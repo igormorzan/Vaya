@@ -3,7 +3,7 @@ Swift app for crowdsourcing train information, cross-checking against MTA's real
 
 https://github.com/igormorzan/Vaya/assets/31595496/8ed6b6fe-bb73-4bc7-80a2-9bf284b1a8b6
 
-<img width="361" alt="login" src="https://github.com/igormorzan/Vaya/assets/31595496/b5a6e386-d26d-4844-8fb9-f13e479707e1">
+<img width="361" alt="login" src="https://github.com/igormorzan/Vaya/assets/31595496/b5a6e386-d26d-4844-8fb9-f13e479707e1"<br>>
 
 <img width="361" alt="register" src="https://github.com/igormorzan/Vaya/assets/31595496/3fe1b49b-364a-4b0e-8b34-3d751ee28d63">
 
